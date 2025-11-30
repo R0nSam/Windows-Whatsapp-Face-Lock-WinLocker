@@ -24,11 +24,27 @@ A lightweight Windows "App Lock" for WhatsApp using:
 
 ## 📦 Setup
 
+## 📂 Directory Structure
+After cloning this repo, make sure your directory has the following structure
+Winlocker/
+|
+|——dataset
+|——trainer
+|——<rest of the python files>
+It is recommended to create the folders dataset and trainer.
+
+#### Having a virtual environment will be safer.
+
 ### Install requirements:
 pip instal -r requirements.txt
 
 ### Register your Face:
 python capture.py
+It is recommended to capture your face multiple times in different lighting/angles/environemnts. If you wear glasses, capture both with and without glasses.
+
+### Train the Model
+python train.py
+I have used OpenCV LPBH as the model. It's a lightweight face recognition algorithm that doesnot need GPU.
 
 ### Run the locker
 python app_lock.py
