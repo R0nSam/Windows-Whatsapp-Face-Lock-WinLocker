@@ -8,7 +8,7 @@ __pycache__/
 dataset/
 
 # unused py files
-face_verify(not_used).py
+face_verify_unused.py
 
 # Virtual environment
 venv/
