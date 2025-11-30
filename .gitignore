@@ -7,6 +7,9 @@ __pycache__/
 #dataset of face
 dataset/
 
+# unused py files
+face_verify(not_used).py
+
 # Virtual environment
 venv/
 env/
