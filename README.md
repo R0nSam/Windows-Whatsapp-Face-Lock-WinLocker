@@ -24,14 +24,19 @@ A lightweight Windows "App Lock" for WhatsApp using:
 
 ## 📦 Setup
 
-## 📂 Directory Structure
-After cloning this repo, make sure your directory has the following structure
-Winlocker/
-|
-|——dataset/<br>
-|——trainer/<br>
-|——<rest of the python files>
-It is recommended to create the folders dataset and trainer.
+## 📁 Directory Structure
+
+After cloning this repo, your directory must look like this:
+
+```
+WinLocker/
+│
+├── dataset/
+└── trainer/
+```
+
+It is recommended to create the folders `dataset` and `trainer`.
+
 
 #### Having a virtual environment will be safer.
 
