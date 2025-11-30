@@ -32,3 +32,6 @@ python capture.py
 
 ### Run the locker
 python app_lock.py
+
+## ⚠️ Disclaimer
+This project is only intended for learning and experimenting. Face lock is not 100% secure. More features will be added in the future.
